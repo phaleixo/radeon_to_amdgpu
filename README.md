@@ -13,26 +13,27 @@ Cape Verde,
 Oland.  
 
 Passo a passo:
+
 instale o git com o comando:
-
+```
 sudo apt install git
-
+```
 clone o repositorio com o comando:
-
+```
 git clone https://github.com/phaleixo/radeon_to_amdgpu.git
-
+```
 abra o terminal e acesse a pasta clonada:
-
+```
 cd radeon_to_amdgpu
-
+```
 Torne o script executavel: 
-
+```
 chmod +x radeon_to_amdgpu
-
+```
 execute o script:
-
+```
 ./radeon_to_amdgpu
-
+```
 
 
 

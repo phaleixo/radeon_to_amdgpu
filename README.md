@@ -34,6 +34,13 @@ execute o script:
 ```
 ./radeon_to_amdgpu
 ```
+reinicie
+execute o script novamente, se estiver com o drive amdgpu ativo, aparecerá a mensagem na tela
+ "O driver amdgpu já está ativo"
+remova o script do computador com o comando:
+```
+rm -r radeon_to_amdgpu
+```
 
 
 

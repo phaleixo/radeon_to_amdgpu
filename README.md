@@ -28,11 +28,11 @@ cd radeon_to_amdgpu
 ```
 Torne o script executavel: 
 ```
-chmod +x radeon_to_amdgpu
+chmod +x radeon_to_amdgpu.sh
 ```
 execute o script:
 ```
-./radeon_to_amdgpu
+./radeon_to_amdgpu.sh
 ```
 reinicie
 execute o script novamente, se estiver com o drive amdgpu ativo, aparecerá a mensagem na tela

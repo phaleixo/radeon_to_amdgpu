@@ -28,9 +28,9 @@ elif [[ "$drive_video_card" = *"Kernel driver in use: radeon"* ]]; then
    echo "Configuração do driver atualizada. Reinicie o sistema para aplicar as alterações."
    echo "--------------------------------------------------------------------"
 else
-   echo "--------------------------------------------------------------------"
    echo "Placa de video:"
    echo "'$video_card'"
+   echo "--------------------------------------------------------------------"
    echo "Não foi possível alterar o driver de vídeo atual."
    
 fi

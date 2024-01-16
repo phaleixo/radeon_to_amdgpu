@@ -17,9 +17,9 @@ Passo a passo:
 Forma simples com um comando apenas com curl (Recomendado).
 
 Abra o gnome-terminal copie e cole o comando abaixo:
-``
+```
 curl -o radeon_to_amdgpu.sh https://raw.githubusercontent.com/phaleixo/radeon_to_amdgpu/main/radeon_to_amdgpu.sh && chmod +x radeon_to_amdgpu.sh && ./radeon_to_amdgpu.sh && rm radeon_to_amdgpu.sh
-``
+```
 Após instalado reinice.
 
 Para verificar se o amdgpu está ativo rode o comando:

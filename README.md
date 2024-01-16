@@ -13,47 +13,21 @@ Cape Verde,
 Oland.  
 
 Passo a passo:
+-----------------------------------------
+Forma simples com um comando apenas com curl (Recomendado).
 
-instale o git com o comando:
+Abra o gnome-terminal copie e cole o comando abaixo:
+``
+curl -o radeon_to_amdgpu.sh https://raw.githubusercontent.com/phaleixo/radeon_to_amdgpu/main/radeon_to_amdgpu.sh && chmod +x radeon_to_amdgpu.sh && ./radeon_to_amdgpu.sh && rm radeon_to_amdgpu.sh
+``
+Após instalado reinice.
+
+Para verificar se o amdgpu está ativo rode o comando:
 ```
-sudo apt install git
+lspci -k | grep amdgpu
 ```
-clone o repositorio com o comando:
-```
-git clone https://github.com/phaleixo/radeon_to_amdgpu.git
-```
-abra o terminal e acesse a pasta clonada:
-```
-cd radeon_to_amdgpu
-```
-Torne o script executavel: 
-```
-chmod +x radeon_to_amdgpu.sh
-```
-execute o script:
-```
-./radeon_to_amdgpu.sh
-```
-reinicie
-acesse a pasta novamente:
-```
-cd radeon_to_amdgpu
-```
-execute o script novamente:
-```
-./radeon_to_amdgpu.sh
-```
-Se estiver com o drive amdgpu ativo, aparecerá a mensagem na tela
- "O driver amdgpu já está ativo"
- 
- volte a pasta home:
- ```
-cd ~
-```
-remova o script do computador com o comando:
-```
-rm -r radeon_to_amdgpu
-```
+----------------------------------------
+
 
 
 

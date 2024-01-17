@@ -6,6 +6,10 @@
 ## NOME:
 ###     Trocar Radeon para Amdgpu
 
+echo "Por favor, digite a sua senha root:"
+if [[ "$(whoami)" != "root" ]]; then
+	exec sudo -- "$0" "$@"
+fi
 
 drive_video_card=$(lspci -k | grep amdgpu)
 video_card=$(lspci | grep VGA)

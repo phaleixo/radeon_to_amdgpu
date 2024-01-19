@@ -6,6 +6,8 @@
 ## NOME:
 ###     Trocar Radeon para Amdgpu
 
+### Verificar se o root está ativo ou se vai ser usado o sudo
+
 echo "Por favor, digite a sua senha root:"
 if [[ "$(whoami)" != "root" ]]; then
 	exec sudo -- "$0" "$@"
